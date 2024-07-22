@@ -9,10 +9,12 @@
 
   <ItemGroup>
     <Compile Remove="MiddleNumber.cs" />
+    <Compile Remove="OddNumaASC.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="MiddleNumber.cs" />
+    <None Include="OddNumaASC.cs" />
   </ItemGroup>
 
 </Project>
