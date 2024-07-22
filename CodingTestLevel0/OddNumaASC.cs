@@ -34,6 +34,25 @@ namespace CodingTestLevel0
                 array[i] = stack.Dequeue();     //큐에 저장된 홀수를 배열에 저장
             }
 
+            
+
+            /*
+             * 다른 사람의 풀이를 참고한 결과 시프트 연산자를 활용하면 간단하게 구할 수 있음
+             */
+
+            int num = 15;       //1 ~ num 사이의 홀수
+            int count = (num + 1) / 2;      //배열의 크기
+            int[] arr = new int[count];     
+
+            for(int i = 0; i < count; i++)
+            {
+                arr[i] = (i << 1) + 1;      // 1 왼쪽 시프트 연산 시 기존 값에 2배가 커지는 것을 이용하여 홀수를 구함
+
+                Console.WriteLine(arr[i]);
+            }
+
+
+
 
         }
 
