@@ -1,5 +1,11 @@
 ﻿namespace Example_003
 {
+
+    /// <summary>
+    /// 날짜 : 2024-08-05
+    /// 문제 : 짝수 홀수 개수 구하기
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120824
+    /// </summary>
     public class Solution
     {
         public int[] solution(int[] num_list)

@@ -1,6 +1,10 @@
 ﻿namespace Example_004
 {
-
+    /// <summary>
+    /// 날짜 : 2024-08-05
+    /// 문제 : 배열 뒤집기
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120821
+    /// </summary>
     public class Solution
     {
         public int[] solution(int[] num_list)
@@ -14,10 +18,7 @@
             {
                 answer[i] = num_list[reverse--];
                  
-            }
-
-
-
+            } 
 
             return answer;
         }
