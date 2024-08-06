@@ -1,27 +1,32 @@
 ﻿namespace Example_015
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            string my_string = "cccCCC";
-            string answer = "";
 
-            //char.IsUpper(x) ? x.ToString().ToLower() : x.ToString().ToLower();
-        
-            for (int i =0; i< my_string.Length; i++)
+    /// <summary>
+    /// 날짜 : 2024-08-06
+    /// 문제 : 대소문자 변경
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120893
+    /// </summary>
+    public class Solution
+    {
+        public string solution(string cipher, int code)
+        {
+            string answer = "";
+            int count = 0;
+
+            for (int i = 0; i < cipher.Length; i++)
             {
-                if (char.IsUpper(my_string[i]))
+
+                count++;
+                if (count % code == 0)
                 {
-                   answer += my_string[i].ToString().ToLower();
+
+                    answer += cipher[i];
                 }
-                else
-                {
-                   answer +=my_string[i].ToString().ToUpper();
-                }
+
             }
 
-            Console.WriteLine(answer);
+            return answer;
         }
+
     }
 }
