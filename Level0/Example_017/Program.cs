@@ -9,6 +9,7 @@ namespace Example_017
     /// </summary>
     public class Solution
     {
+        //메서드 활용하여 큰 수 구하기
         public int[] solution(int n, int[] numlist)
         { 
             int[] answer = numlist.Where(x => x % n == 0).ToArray();
@@ -20,6 +21,7 @@ namespace Example_017
 
     internal class Program
     {
+        //메서드 없이 큰 수 구하기
         static void Main(string[] args)
         {
             int n = 5;
