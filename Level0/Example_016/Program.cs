@@ -2,6 +2,14 @@
 {
     public class Solution
     {
+
+        /// <summary>
+        /// 날짜 : 2024-08-06
+        /// 문제 : 최고값 및 인덱스 구하기
+        /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120899
+        /// </summary>
+        /// <param name="array"></param>
+        /// <returns></returns>
         public int[] solution(int[] array)
         {
 
