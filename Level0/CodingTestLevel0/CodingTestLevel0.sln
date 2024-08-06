@@ -5,29 +5,31 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingTestLevel0", "CodingTestLevel0.csproj", "{F7EF1C02-4018-41AE-87E8-4EE2D764B5C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_001", "..\Example_001\Example_001.csproj", "{7B0770D2-5F3D-45A0-8AA5-8F45C026D334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_001", "..\Example_001\Example_001.csproj", "{7B0770D2-5F3D-45A0-8AA5-8F45C026D334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_002", "..\Example_002\Example_002.csproj", "{FDA40D98-F3BC-4E63-A4CC-B013FCA6D000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_002", "..\Example_002\Example_002.csproj", "{FDA40D98-F3BC-4E63-A4CC-B013FCA6D000}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_003", "..\Example_003\Example_003.csproj", "{C5AE52AA-C7E7-40F3-BADD-4D8DB5CAB620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_003", "..\Example_003\Example_003.csproj", "{C5AE52AA-C7E7-40F3-BADD-4D8DB5CAB620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_004", "..\Example_004\Example_004.csproj", "{3E06205E-6170-4858-8AB3-A4013B4F6B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_004", "..\Example_004\Example_004.csproj", "{3E06205E-6170-4858-8AB3-A4013B4F6B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_005", "..\Example_005\Example_005.csproj", "{A3E95F55-B844-418F-B86C-36242C569166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_005", "..\Example_005\Example_005.csproj", "{A3E95F55-B844-418F-B86C-36242C569166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_006", "..\Example_006\Example_006.csproj", "{4C1A98DC-2568-4151-AA3E-B0D9BF40F65F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_006", "..\Example_006\Example_006.csproj", "{4C1A98DC-2568-4151-AA3E-B0D9BF40F65F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_007", "..\Example_007\Example_007.csproj", "{56AFABE8-418F-4199-925A-FB4D7A4FB740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_007", "..\Example_007\Example_007.csproj", "{56AFABE8-418F-4199-925A-FB4D7A4FB740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_008", "..\Example_008\Example_008.csproj", "{CB8D8C9E-EA5F-4828-A1BC-ACD6FC61D81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_008", "..\Example_008\Example_008.csproj", "{CB8D8C9E-EA5F-4828-A1BC-ACD6FC61D81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_009", "..\Example_009\Example_009.csproj", "{2FBCA519-05B2-4451-9BF7-02C2B17DD8F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_009", "..\Example_009\Example_009.csproj", "{2FBCA519-05B2-4451-9BF7-02C2B17DD8F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_010", "..\Example_010\Example_010.csproj", "{BCF33A22-2F00-45F4-A08B-32F16202F97C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_010", "..\Example_010\Example_010.csproj", "{BCF33A22-2F00-45F4-A08B-32F16202F97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_011", "..\Example_011\Example_011.csproj", "{EB50BC27-96C3-41F6-AA18-2BDC5586A0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_011", "..\Example_011\Example_011.csproj", "{EB50BC27-96C3-41F6-AA18-2BDC5586A0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_012", "..\Example_012\Example_012.csproj", "{F86AE9C8-BA19-4172-94C9-D094166D83A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_012", "..\Example_012\Example_012.csproj", "{F86AE9C8-BA19-4172-94C9-D094166D83A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_013", "..\Example_013\Example_013.csproj", "{FD2CD14A-1134-4DF5-A761-6C08C77FE925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{F86AE9C8-BA19-4172-94C9-D094166D83A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F86AE9C8-BA19-4172-94C9-D094166D83A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F86AE9C8-BA19-4172-94C9-D094166D83A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2CD14A-1134-4DF5-A761-6C08C77FE925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2CD14A-1134-4DF5-A761-6C08C77FE925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2CD14A-1134-4DF5-A761-6C08C77FE925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2CD14A-1134-4DF5-A761-6C08C77FE925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
