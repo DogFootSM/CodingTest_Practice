@@ -1,28 +1,27 @@
 ﻿namespace Example_012
 {
-    internal class Program
+
+    /// <summary>
+    /// 날짜 : 2024-08-06
+    /// 문제 : 문자열 모음 제거
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120849
+    /// </summary>
+    public class Solution
     {
-        static void Main(string[] args)
+        public string solution(string my_string)
         {
+             
+            string[] check = { "a", "e", "i", "o", "u" };
 
-            string ars = "banana";
-
-            char[] check = { 'a','e','i','o','u' };
-
-
-            for (int i = 0; i < ars.Length; i++)
+            foreach (string c in check)
             {
-                for (int j = 0; j < check.Length; j++)
-                { 
-                    Console.WriteLine(ars[i].Equals(check[j])); 
-                } 
-                //ars.Contains(check[i]);
+                my_string = my_string.Replace(c, "");
+
             }
-
-
-
-
-
+             
+            return my_string;
         }
     }
+
+     
 }
