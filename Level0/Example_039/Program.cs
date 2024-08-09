@@ -34,5 +34,11 @@ namespace Example_039
 
             return answer;
         }
+
+        static void Main(string[] args)
+        {
+             
+        }
+
     }
 }
