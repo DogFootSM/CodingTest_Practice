@@ -3,9 +3,9 @@
 
 
     /// <summary>
-    /// 날짜 : 
-    /// 문제 : 
-    /// URL : 
+    /// 날짜 : 2024-08-11
+    /// 문제 : 가까운 수
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120890
     /// </summary>
     public class Solution
     {
