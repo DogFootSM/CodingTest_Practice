@@ -1,41 +1,41 @@
 ﻿namespace Example_048
 {
-    internal class Program
+
+    /// <summary>
+    /// 날짜 : 2024-08-11
+    /// 문제 : 숨어있는 숫자의 덧셈 (2)
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/120864
+    /// </summary>
+    public class Solution
     {
-        static void Main(string[] args)
+        public int solution(string my_string)
         {
-            string my_string = "1000a";
             int answer = 0;
-
-            List<int> list = new List<int>();
             string temp = "0";
-            bool isCheck = false;
+            List<int> list = new List<int>();
 
-            for(int i = 0; i< my_string.Length; i++)
+            for (int i = 0; i < my_string.Length; i++)
             {
-                //isCheck = int.TryParse(my_string[i].ToString(), out int a);
 
-                if (char.IsNumber(my_string[i]))
+                if (char.IsNumber(my_string[i]) && i != my_string.Length)
                 {
-                    temp += string.Concat(my_string[i]); 
+                    temp += string.Concat(my_string[i]);
                 }
-                else
+
+                if (!char.IsNumber(my_string[i]) || i == my_string.Length - 1)
                 {
                     list.Add(int.Parse(temp));
                     temp = "0";
-                } 
-                //문자를 만나지 않으면 저장이 안됨...
-
+                }
             }
 
             foreach (int i in list)
             {
-                Console.WriteLine(i);
-
                 answer += i;
             }
-            Console.WriteLine(answer);
 
+
+            return answer;
         }
     }
 }
