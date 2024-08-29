@@ -1,5 +1,10 @@
 ﻿namespace Example_001
 {
+    /// <summary>
+    /// 날짜 : 2024-08-29
+    /// 문제 : 직사각형 별찍기
+    /// URL : https://school.programmers.co.kr/learn/courses/30/lessons/12969
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
