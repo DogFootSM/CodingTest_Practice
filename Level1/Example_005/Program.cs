@@ -28,7 +28,7 @@ namespace Example_005
 
             int answer = 0;
             string temp = "";
-            string number = "";
+ 
             StringBuilder sb    = new StringBuilder();
 
             for (int i = 0; i < s.Length; i++)
@@ -49,8 +49,8 @@ namespace Example_005
                 } 
             }
 
-            number = sb.ToString(); 
-            answer = Convert.ToInt32(number);
+ 
+            answer = Convert.ToInt32(sb.ToString());
             Console.WriteLine(answer);
         }
     }
