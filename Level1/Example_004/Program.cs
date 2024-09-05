@@ -50,10 +50,6 @@ namespace Example_004
                 count += Convert.ToInt64(arr[i]) <= Convert.ToInt64(p) ? 1 : 0;
   
             }
-
-            Console.WriteLine(count);
- 
-
         }
     }
 }
