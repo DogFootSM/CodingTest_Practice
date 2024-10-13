@@ -7,8 +7,7 @@
 
             int[] arr = new int[6];
             int temp = 0;
-            bool check = false;
-            
+ 
             Random random = new Random();
             
              
