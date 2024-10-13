@@ -9,7 +9,6 @@
             int temp = 0;
  
             Random random = new Random();
-            
              
             for(int i = 0; i < 6; i++)
             {
