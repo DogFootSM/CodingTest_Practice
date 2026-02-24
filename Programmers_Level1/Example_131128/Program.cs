@@ -1,56 +1,51 @@
 ﻿using System.Diagnostics;
+using System.Text;
 
-public class NumberPartner
-{
-    private static void Main(string[] args)
-    {
-        //같은 숫자가 있을 경우 그것을 모아서 가장 큰 수로 만들기
-        //같은 수가 0만 있을 경우 0
-        //같은 수가 없으면 -1
-        //자릿수가 300만
-         
-        
-        string x = "12222";
-        string y = "21111";
+/// <summary>
+/// 날짜 : 2026.02.23
+/// 문제 : 숫자 짝꿍
+/// URL : https://school.programmers.co.kr/learn/courses/30/lessons/131128
+/// </summary>
+public class Solution {
+    public string solution(string X, string Y) {
         string answer = "";
-
-        long[] xNums = new long[10];
-        long[] yNums = new long[10];
-  
-        //시간을 잡아먹는 요소일것으로 예상
-        for (int i = 0; i < 10; i++)
+        StringBuilder sb = new StringBuilder();
+        
+        int[] xNumbers = new int[10];
+        int[] yNumbers = new int[10]; 
+        
+        for(int i = 0; i < X.Length; i++)
         {
-            xNums[i] = x.Where(x => (x - 48) == i).Count(); 
+            xNumbers[(int)X[i] - 48]++;
         }
-
-        for (int i = 0; i < 10; i++)
+        
+        for(int i = 0; i < Y.Length; i++)
         {
-            yNums[i] = y.Where(x => (x - 48) == i).Count();
+            yNumbers[(int)Y[i] - 48]++;
         }
-
-        for (int i = xNums.Length -1; i >= 0; i--)
+        
+        for(int i = 9; i >= 0; i--)
         {
-            if(xNums[i] == 0 || yNums[i] == 0) continue;
-
-            long min = Math.Min(xNums[i], yNums[i]);
-            
-            for (int j = 0; j < min; j++)
+            for(int j = 0; xNumbers[i] > 0 && yNumbers[i] > 0; j++)
             {
-                answer += i; 
+                sb.Append(i);
+                xNumbers[i]--;
+                yNumbers[i]--;
             }
-             
         }
-
-        if (answer == "")
+        
+        answer = sb.ToString();
+         
+        if(answer.Equals(""))
         {
             answer = "-1";
         }
-        else if (int.Parse(answer) == 0)
+        else if(answer[0].Equals('0'))
         {
             answer = "0";
-        } 
+        }
         
-        Console.WriteLine(answer);
-        
-    }   
+        return answer;
+    }
+    
 }
